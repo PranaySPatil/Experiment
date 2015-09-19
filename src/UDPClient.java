@@ -17,6 +17,7 @@ public class UDPClient {
 	public static void main(String[] a) throws IOException
 	{
 		clientsocket = new DatagramSocket(cport);
+		int j = 4;
 		dp = new DatagramPacket(buf, buf.length);
 		dis = new BufferedReader(new InputStreamReader(System.in));
 		ia = InetAddress.getLocalHost();
