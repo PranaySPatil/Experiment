@@ -13,6 +13,7 @@ public class ReadingTHread extends Thread {
 	DatagramPacket dp;
 	boolean isServer;
 	InetAddress ip;
+	String temp = "For test branch";
 	byte[] buf = new byte[1024];
 	public static int cport,  sport=1790;
 	WritingThread wr;
