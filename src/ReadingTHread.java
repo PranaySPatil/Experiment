@@ -14,6 +14,7 @@ public class ReadingTHread extends Thread {
 	boolean isServer;
 	String g = "This is master branch"
 	InetAddress ip;
+	String temp = "For test branch";
 	byte[] buf = new byte[1024];
 	public static int cport,  sport=1790;
 	WritingThread wr;
